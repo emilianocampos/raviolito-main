@@ -4,3 +4,9 @@ var typed = new Typed('#element', {
     typeSpeed: 40,
   });
 
+const textoParrafo = document.querySelectorAll('.pasta-texto');
+
+
+
+
+console.log(textoParrafo);

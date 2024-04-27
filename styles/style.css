@@ -102,7 +102,7 @@ h4 {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.5s;
   }
   .pasta-texto {
@@ -116,7 +116,7 @@ h4 {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.5s;
   }
   .pasta-texto-parrafo {
@@ -156,39 +156,27 @@ h4 {
   .info-pasta:hover + .info-texto {
     opacity: 1;
   }
-  .ravioles:hover {
-    filter: blur(5px);
-  }
+ 
   .ravioles:hover + .pasta-texto {
-    opacity: 1;
+    opacity: 0;
   }
-  .sorrentinos:hover {
-    filter: blur(5px);
-  }
+  
   .sorrentinos:hover + .pasta-texto {
-    opacity: 1;
+    opacity: 0;
   }
-  .capeletis:hover {
-    filter: blur(5px);
-  }
+ 
   .capeletis:hover + .pasta-texto {
     opacity: 1;
   }
-  .canelones:hover {
-    filter: blur(5px);
-  }
+  
   .canelones:hover + .pasta-texto {
     opacity: 1;
   }
-  .tallarines:hover {
-    filter: blur(5px);
-  }
+
   .tallarines:hover + .pasta-texto {
     opacity: 1;
   }
-  .noquis:hover {
-    filter: blur(5px);
-  }
+
   .noquis:hover + .pasta-texto {
     opacity: 1;
   }
@@ -220,7 +208,6 @@ h4 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 200px;
   }
   .img-pasta img {
     max-width: 300px;
