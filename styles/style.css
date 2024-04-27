@@ -155,7 +155,7 @@ h4 {
   }
   .info-pasta:hover + .info-texto {
     opacity: 1;
-  }
+  } 
  
   .ravioles:hover + .pasta-texto {
     opacity: 0;
